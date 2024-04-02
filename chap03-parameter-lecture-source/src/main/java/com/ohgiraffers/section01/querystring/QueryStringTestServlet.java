@@ -17,7 +17,7 @@ public class QueryStringTestServlet extends HttpServlet {
         String name = request.getParameter("name");
         System.out.println("name = " + name);
 
-        int age =Integer.parseInt(request.getParameter("age"));
+        int age = Integer.parseInt(request.getParameter("age"));
         System.out.println("age = " + age);
 
         java.sql.Date birthday = java.sql.Date.valueOf(request.getParameter("birthday"));

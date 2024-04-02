@@ -22,7 +22,6 @@ public class LifeCycleTestServlet extends HttpServlet {
         System.out.println("xml 매핑 init() 메소드 호출 : " + initCount++);
     }
 
-
     /* 서블릿 컨테이너에 의해 호출되며 최초 요청 시에는 init() 이후에 동작하고,
     * 두 번째 요청부터는 init() 호출 없이 바로 service()를 호출한다.
     * */
