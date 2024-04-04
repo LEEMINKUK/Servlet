@@ -27,8 +27,8 @@ public class ExceptionHandlerServlet extends HttpServlet {
         String message = (String) req.getAttribute("jakarta.servlet.error.message");
 
         /* 콘솔창에 값이 뭔지 나타내봤지만 없어도 된다.*/
-//        System.out.println("statusCode = " + statusCode);
-//        System.out.println("message = " + message);
+        System.out.println("statusCode = " + statusCode);
+        System.out.println("message = " + message);
 
         StringBuilder errorPage=new StringBuilder();
         errorPage.append("<!doctype html>\n")
